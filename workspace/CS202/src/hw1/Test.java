@@ -5,8 +5,13 @@ public class Test {
 	public static void main(String[] args) {
 		Deck deck1 = new Deck();
 		
-		for(int i = 0; i< 4; i++){
-			System.out.println(deck1.dealCard());
+		Deck deck2 = deck1.split();
+		System.out.printf("Player 1 deck has %s cards\n", deck1.getCount());
+		System.out.printf("Player 2 deck has %s cards\n", deck2.getCount());
+		
+		for(int i = 0; i< 26; i++){
+			System.out.printf("Player 1 drew %s\n", deck1.dealCard());
+			System.out.printf("Player 2 drew %s\n", deck2.dealCard());
 		}
 	}
 }

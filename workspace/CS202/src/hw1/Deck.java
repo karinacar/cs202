@@ -35,7 +35,8 @@ public class Deck {
 	public Deck split() {
 		Deck deck2 = new Deck();
 		Card[] cardArray2 = Arrays.copyOf(cards, cards.length/2);
-		cards = Arrays.copyOfRange(cards, 26, 51);
+		cards = Arrays.copyOfRange(cards, 26, 52);
+		count = cards.length;
 		deck2.setCards(cardArray2);
 		return deck2;
 	}
