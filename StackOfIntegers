@@ -1,0 +1,43 @@
+package scratchpad;//You may need to change this to fit your package
+
+public class StackOfIntegers {
+	  private int[] elements;
+	  private int size;
+	  public static final int DEFAULT_CAPACITY = 16;
+
+	  /** Construct a stack with the default capacicity 16 */
+	  public StackOfIntegers() {
+	    //Your code here
+	  }
+
+	  /** Construct a stack with the specified maximum capacity */
+	  public StackOfIntegers(int capacity) {
+	    //Your code here
+	  }
+
+	  /** Push a new integer into the top of the stack */
+	  public void push(int value) {
+	    //Your code here. If the number of ints in the stack
+		  //exceeds the size, print out "Number of ints exceeds size"
+	  }
+
+	  /** Return and remove the top element from the stack */
+	  public int pop() {
+	    //Your code here
+	  }
+
+	  /** Return the top element from the stack */
+	  public int peek() {
+	    //Your code here
+	  }
+
+	  /** Test whether the stack is empty */
+	  public boolean empty() {
+	    //Your code here
+	  }
+
+	  /** Return the number of elements in the stack */
+	  public int getSize() {
+	    return size;
+	  }
+	}
